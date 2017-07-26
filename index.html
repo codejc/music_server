@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>html5 audio player on iPhone</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+audio::-internal-media-controls-download-button {
+    display:none;
+}
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 33px);
+}  
+</style>
+</head>
+<body>
+<audio controls preload="auto" style="width:100%;">
+    <source src="http://m10.music.126.net/20170720224320/a923b7b1829ba69ccbaf608651a721ff/ymusic/2d15/d9fd/57cd/6679396a63ff496ecef0453b25612dfa.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+</audio><br />
+</body>
+</html>
